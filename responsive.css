@@ -1,0 +1,125 @@
+@media screen and (max-width: 1200px){
+    header{
+        width: 100%;
+        min-height: 100vh;
+    }
+    nav{
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    .hero-img-section img{
+        width: 350px;
+        height: auto;
+    }
+    .product-content .product-header h2{
+        font-size: 50px;
+    }
+    .product-header .product-little-desc{
+        font-size: 25px;
+    }
+    .product-content .product-desc .product-main-desc{
+        font-size: 15px;
+    }
+    .product-desc .price{
+        font-size: 15px;
+    }
+    .product-desc .product-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .product-img-content .product-overlay{
+        width: 330px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .contact-seciton .content-header h2{
+        font-size: 30px;
+    }
+    .form-group label{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 760px){
+    nav{
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-header-section{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+    }
+    .hero-header-content h1{
+        text-align: center;
+    }
+    .hero-header-content h2{
+        font-size: 30px;
+    }
+    .hero-btn-section{
+        display: flex;
+        justify-content: center;
+    }
+    .hero-img-section{
+        display: flex;
+        justify-content: center;
+    }
+    .product-content{
+        align-items: center;
+    }
+    .product-content .product-header h2{
+        text-align: center;
+    }
+    .product-header .product-little-desc{
+        text-align: center;
+    }
+    .product-desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-content .product-desc .product-main-desc{
+        font-size: 15px;
+        text-align: center;
+    }
+    .product-desc .price{
+        text-align: center;
+    }
+    .product-desc .product-btn{
+        align-items: center;
+    }
+    .product-img-content{
+        width: 100%;
+        height: 100%;
+    }
+    .product-overlay{
+        margin-bottom: 35px;
+    }
+    .contact-seciton{
+        width: 100%;
+        height: 100vh;
+        background: #ccc;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .contact-seciton .bg-circle{
+        width: 0%;
+        height: 0%;
+        background-color: #2A2A2A;
+        position: none;
+        right: 0%;
+        z-index: 0;
+    }
+    .contact-header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .form-section{
+        background: #ccc;
+    }
+}
